@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46666"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e81, 2020-09-07)"
+   sodipodi:docname="bold.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.28"
+     inkscape:cx="235.62758"
+     inkscape:cy="215.62408"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="-6.3247306,119.51118"
+       orientation="0,512"
+       id="guide837" />
+    <sodipodi:guide
+       position="119.48222,138.88364"
+       orientation="512,0"
+       id="guide839" />
+    <sodipodi:guide
+       position="141.70257,15.93915"
+       orientation="0,-512"
+       id="guide841" />
+    <sodipodi:guide
+       position="16.045405,147.70694"
+       orientation="-512,0"
+       id="guide843" />
+    <sodipodi:guide
+       position="-11.505924,94.539423"
+       orientation="0,512"
+       id="guide853" />
+    <sodipodi:guide
+       position="-6.0697675,41.076766"
+       orientation="0,-512"
+       id="guide857" />
+    <sodipodi:guide
+       position="-9.4819031,80.269088"
+       orientation="0,512"
+       id="guide861" />
+    <sodipodi:guide
+       position="-12.456572,55.231706"
+       orientation="0,-512"
+       id="guide865" />
+    <sodipodi:guide
+       position="94.484421,127.25887"
+       orientation="512,0"
+       id="guide873" />
+    <sodipodi:guide
+       position="41.19104,138.98195"
+       orientation="-512,0"
+       id="guide877" />
+    <sodipodi:guide
+       position="80.254674,147.98705"
+       orientation="512,0"
+       id="guide881" />
+    <sodipodi:guide
+       position="55.201327,147.42142"
+       orientation="-512,0"
+       id="guide885" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="B"
+       id="text835"
+       style="font-style:normal;font-weight:normal;font-size:142.062px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.07229;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         d="m 71.213852,17.897072 q 14.490324,0 21.877547,6.39279 7.387221,6.39279 7.387221,18.610121 0,6.676914 -3.267423,11.933208 -3.125364,5.256294 -9.376091,8.239596 4.688045,1.562682 8.665781,4.830108 4.119803,3.125364 6.676913,8.097533 2.55712,4.97217 2.55712,12.07527 0,8.665782 -2.9833,14.348262 -2.983307,5.68248 -7.813415,8.94991 -4.830108,3.26742 -10.654649,4.68804 -5.824542,1.27856 -11.649084,1.27856 H 29.731749 V 17.897072 Z M 68.656736,32.671519 H 45.074445 V 59.095051 H 70.36148 q 5.824542,-0.142062 10.228464,-3.55155 4.545984,-3.409488 4.545984,-9.660216 0,-7.1031 -4.830108,-10.086402 -4.688046,-3.125364 -11.649084,-3.125364 z M 71.07179,73.869498 H 45.074445 V 102.56602 H 71.7821 q 8.097534,0 13.211766,-3.551548 5.114231,-3.693612 5.114231,-11.222898 0,-5.398356 -2.983301,-8.381658 -2.983302,-2.983302 -7.387224,-4.26186 -4.26186,-1.278558 -8.665782,-1.278558 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Lexend Deca';-inkscape-font-specification:'Lexend Deca';stroke:#000000;stroke-width:4.07229;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path844" />
+    </g>
+  </g>
+</svg>

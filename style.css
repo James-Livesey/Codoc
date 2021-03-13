@@ -1,0 +1,165 @@
+:root {
+    --background: white;
+    --foreground: black;
+    --light1: #e8e8e8;
+    --light2: #c9c9c9;
+    --red: #fb3640;
+    --redText: white;
+    --blue: #0cbaba;
+    --blueText: black;
+    --yellow: #ffca3a;
+    --yellowText: black;
+    --green: #8ac926;
+    --greenText: black;
+    --purple: #88498f;
+    --purpleText: white;
+}
+
+* {
+    font-family: "Lexend Deca", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--light1);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+button img {
+    height: 100%;
+}
+
+button.icon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--light1);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="color"].inside::-webkit-color-swatch {
+    border: 5px solid white;
+}
+
+.toolbar {
+    height: 150px;
+}
+
+.toolbar .tabstrip {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.toolbar .tabstrip img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.toolbar .tabstrip button {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    vertical-align: middle;
+}
+
+.toolbar .tabstrip button[data-tab="properties"].selected {
+    background-color: var(--red);
+    color: var(--redText);
+}
+
+.toolbar .tabs {
+    background-color: var(--light1);
+}
+
+.toolbar .tabs .accent {
+    height: 5px;
+    background-color: var(--red);
+}
+
+.toolbar .tabs .tab {
+    height: 95px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.toolbar .tabs .tab .category {
+    display: inline-block;
+    height: 100%;
+    margin-inline-start: -2px;
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-inline-end: 2px solid var(--light2);
+    vertical-align: middle;
+}
+
+.toolbar .tabs .tab .category:first-child {
+    margin-inline-start: 0;
+}
+
+.toolbar .tabs .tab .category:last-child {
+    border-inline-end: 0;
+}
+
+.toolbar .tabs .tab .category button {
+    height: 28px;
+    vertical-align: top;
+}
+
+.toolbar .tabs .tab .category input {
+    width: 190px;
+    height: 28px;
+    background-color: var(--background);
+}
+
+.toolbar .tabs .tab .category input.small {
+    width: 60px;
+}
+
+.toolbar .tabs .tab .category.noBorder {
+    border-inline-end: 0;
+}
+
+.toolbar .tabs .tab .category.bigButtons button {
+    height: 100%;
+}
