@@ -4,23 +4,39 @@
         <title>Codoc</title>
         <link rel="icon" href="/media/icon.svg">
         <link rel="stylesheet" href="/lib/fonts.css">
+        <link rel="stylesheet" href="/lib/jquery-ui.css">
         <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/defaults.css">
+        <script src="/lib/jquery.min.js"></script>
+        <script src="/lib/jquery-ui.min.js"></script>
+        <script src="/lib/jquery-ui-touch-punch.js"></script>
+        <script src="/toolbar.js"></script>
+        <script src="/zooming.js"></script>
+        <script src="/objects.js"></script>
+        <script src="/presenter.js"></script>
     </head>
     <body>
         <div class="toolbar">
             <div class="tabstrip">
                 <img src="/media/logo.svg" alt="Codoc" />
-                <button data-tab="properties" class="selected">Object</button>
+                <button data-tab="object" class="selected">Object</button>
                 <button data-tab="insert">Insert</button>
                 <button data-tab="animations">Animations</button>
                 <button data-tab="page">Page</button>
                 <button data-tab="scripting">Scripting</button>
+                <button class="play" id="playButton"><img src="/media/icons/play.svg" alt=""> Play</button>
             </div>
             <div class="tabs">
                 <div class="accent"></div>
-                <div class="tab">
+                <div data-tab="object" class="tab">
+                    <div class="category bigButtons">
+                        <button id="toggleTextModeButton">
+                            <img src="/media/icons/textmode.svg">
+                            <span>Text mode</span>
+                        </button>
+                    </div>
                     <div class="category">
-                        <input value="Lexend Deca" title="Font family">
+                        <input value="Lexend Deca" spellcheck="false" title="Font family">
                         <input type="number" value="16" min="1" max="100" class="small">
                         <br>
                         <button title="Bold" class="icon"><img src="/media/icons/bold.svg" alt="Bold" /></button>
@@ -40,7 +56,28 @@
                         <input type="color" value="#000000" title="Foreground colour" class="inside small">
                     </div>
                 </div>
+                <div hidden data-tab="insert" class="tab">
+                    <div class="category bigButtons">
+                        <button>
+                            <img src="/media/icons/newpage.svg">
+                            <span>New page</span>
+                        </button>
+                    </div>
+                </div>
+                <div hidden data-tab="animations" class="tab"></div>
+                <div hidden data-tab="page" class="tab"></div>
+                <div hidden data-tab="scripting" class="tab"></div>
             </div>
         </div>
+        <div class="workspace">
+            <surface>
+                <page class="selected">
+                    <text>
+                        <content contenteditable="true">Hi!</content>
+                    </text>
+                </page>
+            </surface>
+        </div>
+        <div class="presenter"></div>
     </body>
 </html>
